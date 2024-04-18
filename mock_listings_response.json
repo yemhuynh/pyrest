@@ -1,0 +1,44 @@
+{
+  "listings": [
+    {
+      "curation_results": [
+        {
+          "in_app": true,
+          "lot": 1,
+          "status": "flash_deal"
+        }
+      ],
+      "event_id": "evt-123",
+      "id": "id-1",
+      "price": {
+        "amount": 10000,
+        "discount_amount": 1000,
+        "discount_rate": 10,
+        "sales_tax": 4000,
+        "seller_fees": 3000
+      },
+      "status": "active",
+      "ticket_id": "ticket-id-1"
+    },
+    {
+      "curation_results": [
+        {
+          "in_app": true,
+          "lot": 1,
+          "status": "flash_deal"
+        }
+      ],
+      "event_id": "evt-123",
+      "id": "id-2",
+      "price": {
+        "amount": 20000,
+        "discount_amount": 2000,
+        "discount_rate": 20,
+        "sales_tax": 8000,
+        "seller_fees": 6000
+      },
+      "status": "active",
+      "ticket_id": "ticket-id-2"
+    }
+  ]
+}
