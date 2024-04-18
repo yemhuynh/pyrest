@@ -21,4 +21,4 @@ def get_listings_for_event():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8501)
+    app.run(debug=True)
