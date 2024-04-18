@@ -19,7 +19,9 @@ def get_listings_for_event():
 
     f = open('mock_listings_response.json')
     resp = json.load(f)
-
+    resp['params'] ={
+        "ticket_id" : ticket_id
+    }
 
     f.close()
 
