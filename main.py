@@ -13,10 +13,14 @@ parser = reqparse.RequestParser()
 @app.route('/event', methods=['GET'])
 def get_listings_for_event():
     ticket_id = request.args.get('ticket_id')
+    if ticket_id is None:
+        ticket_id = "deafult-ticket-id"
+
     print("ticket_id=" + str(ticket_id))
 
     return {
-        "foo" : "bar"
+        "foo" : "bar",
+        "ticket_id" : ticket_id
     }
 
 
